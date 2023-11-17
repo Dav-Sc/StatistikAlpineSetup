@@ -28,6 +28,6 @@ rc-service postgresql restart
 echo "PostgreSQL installed and configured. User: postgres, Password: root"
 
 # Install Git, Node.js, and npm
-apk add git nodejs npm
+apk add nodejs npm
 
-echo "Git, Node.js, and npm installed"
+echo "Node.js, and npm installed"
